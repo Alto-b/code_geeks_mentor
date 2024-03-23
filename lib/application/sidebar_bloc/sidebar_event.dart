@@ -9,7 +9,5 @@ sealed class SidebarEvent extends Equatable {
 
 class IndexChangeEvent extends SidebarEvent{
   final int index;
-  IndexChangeEvent({
-    required this.index
-  });
+  IndexChangeEvent({required this.index});
 }
